@@ -158,12 +158,6 @@ test_classifier = tf.estimator.Estimator(
 
 test_results=[len(y_test)]#end*steps]
 
-x_example = X_test.shape
-print(type(x_example))
-totalentries = x_example[0]
-print(totalentries)
-print(type(totalentries))
-
 run_opts = tf.RunOptions(report_tensor_allocations_upon_oom = True)
 
 def evaluate(X_test,y_test):
