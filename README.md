@@ -34,4 +34,6 @@ The scripts must be ran in this order;
 
 Two .txt files will be set up, one which has the result of the model, and the other which has the coordinates of the said data.
 
-This model is not working as it should, and needs further work in order to make it better.
+This model is not working as it should, and needs further work in order to make it better. 
+
+Please contact me before use as per the license - as this was a large project and I would love to hear about any improvements. 
