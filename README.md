@@ -31,4 +31,3 @@ Two txt files will be set up, one which has the result of the model, and the oth
 
 This model is not working as it should, and needs further work in order to make it better.
 
-Special thanks to professor shan for helping me edit the matlab codes.
