@@ -29,9 +29,9 @@ edit lines 157,273,and 274 to point to the location where the model is saved.</b
 
 The scripts must be ran in this order;
 1. generate train,eval,and test to generate the data.
-2. run run.py once all of the data and model save locations have been set up
+2. run run.py once all of the data and model save locations have been set up. This will generate the model, and generate .csv files of the results.
 3. run testmodel.py once the training is done and the script has been pointed to the model location.
 
-Two txt files will be set up, one which has the result of the model, and the other which has the coordinates of the said data.
+Two .txt files will be set up, one which has the result of the model, and the other which has the coordinates of the said data.
 
 This model is not working as it should, and needs further work in order to make it better.
