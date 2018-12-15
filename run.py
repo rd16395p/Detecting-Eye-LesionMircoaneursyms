@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import tensorflow as tf
 
-#If you do not have the files in the same directory as the model. please change.
+#If you do not have the files in the same directory as the model, please change.
 df_train = 'datatrain.csv'
 df_label = 'labelstrain.csv'
 df_eval_x = 'dataeval.csv'
@@ -19,7 +19,7 @@ y_train = np.asarray(y_train, dtype=np.int32)
 X_train = np.asarray(X_train, dtype=np.float)
 X_eval = np.asarray(X_eval, dtype=np.float)
 
-#This is the whiting part, please comment out if you do not want this affect.
+#This is the whiting part, please comment out if you do not want this effect.
 mean = np.mean(X_train)
 std = np.std(X_train)
 
@@ -158,7 +158,7 @@ test_classifier = tf.estimator.Estimator(
     model_fn=cnn_model_fn,model_dir="enter where you would like to save the model...")
 
 
-
+#change the number if you want to have it run longer or shorter.
 total = 1000
 
 test_results=[total]
