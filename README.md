@@ -15,16 +15,17 @@ numpy,scipy,tensorflow/tensorflowgpu,pandas,pprint
 
 set up file locations:
 
-generate Train and Eval patches files:
-edit lines 10,12,14,47,49,51,54 to point the script where the files are saved if they are not in the same directory.
+generate Train and Eval patches files: </br>
+edit lines 10,12,14,47,49,51,54 to point the script where the files are saved if they are not in the same directory.</br>
 
-generate test patches file:
+generate test patches file:</br>
+edit lines 18,20,22 to point the script where the files are saved if they are not in the same directory.</br>
 
-run.py:
-edit lines 176 and 232 to decide where to save the model.
+run.py:</br>
+edit lines 176 and 232 to decide where to save the model.</br>
 
-testmodel.py:
-edit lines 157,273,and 274 to point to the location where the model is saved.
+testmodel.py:</br>
+edit lines 157,273,and 274 to point to the location where the model is saved.</br>
 
 The scripts must be ran in this order;
 1. generate train,eval,and test to generate the data.
