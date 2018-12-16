@@ -1,6 +1,6 @@
 # Detecting Eye Lesions - Mircoaneursyms
 
-This was a six month project to attempt to improve on the current models to be used for Mircoaneursym detection, using a deep cnn that was created. The database DIARETDB1 was used in this case.
+This is a six month project to attempt to improve on the current models to be used for Mircoaneursym detection, using a deep cnn that was created. The database DIARETDB1 was used in this case.
 
 This repo also contains a sample research poster, named Improvement on the task...ppt and the final presentation for the class.
 
